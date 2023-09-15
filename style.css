@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+body{
+    background-color: #FBFBFB;
+    
+}
+.main{
+    background-color: #323232;
+    width: 480px;
+    height: 323px;
+    margin: 0 auto;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+p{
+    color: #FBFBFB;
+}
+button{
+    background-color: #007BFF;
+}
+.inch-to-meter{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.enter-number{
+    left: -120px;
+    font-size: 18px;
+}
+
+.result{
+    background-color: #28A745;
+    padding: 15px 100px;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+}
+input , button{
+    padding: 15px 100px;
+    margin: 10px;
+    width: 100%;
+}
+

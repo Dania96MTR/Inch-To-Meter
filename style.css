@@ -53,8 +53,8 @@ input , button{
 @media screen and (max-width: 600px ) {
     .main {
         width:100% ;
-        top:0;
-        bottom: 0;
+        top:130px;
+        
     }
     input , button {
         width: 100%;

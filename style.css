@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     position: relative;
+    font-family: Glory;
 }
 body{
     background-color: #FBFBFB;
@@ -24,24 +25,22 @@ body{
 p{
     color: #FBFBFB;
 }
-button{
-    background-color: #007BFF;
-}
+
 .inch-to-meter{
     margin-bottom: 30px;
     font-size: 40px;
 }
 .enter-number{
-    left: -120px;
+    left: -98px;
     font-size: 18px;
 }
 
 .result{
     background-color: #28A745;
-    padding: 15px 100px;
+    padding: 15px 90px;
     margin-left: 15px;
     margin-top: 10px;
-    width: 80%;
+    width: 70%;
     text-align: center;
 }
 input , button{
@@ -49,13 +48,24 @@ input , button{
     margin: 10px;
     width: 100%;
 }
+input{
+    color: #323232;
+    font-size: 20;
+    font-weight: bold;
+}
+button{
+    background-color: #007BFF;
+    color: #FBFBFB;
+    font-size: 21;
+}
 
 @media screen and (max-width: 600px ) {
     .main {
         width:100% ;
         top:130px;
-        
-        
+    }
+    form{
+        width: 80%;
     }
     input , button {
         width: 100%;
@@ -66,14 +76,21 @@ input , button{
         color: black;
     }
     .result{
-        width: 60%;
-        padding: 10px 30px;
+        margin: 0;
+        margin-top: 5px;
+        padding: 10px ;
+        width: 80%;
+        left: 10px;
+    }
+    .result>p{
+        font-size: 10px;
+        text-align: center;
     }
     .inch-to-meter{
         font-size: 20px;
     }
     .enter-number{
-        left: -70px;
+        width: 100%;
         font-size: 10px;
     }
 
